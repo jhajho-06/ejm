@@ -1,18 +1,31 @@
-    1  git init
-    2  git status
-    3  git add .
-    4  git commit -m "Version 1"
-    5  git config --global user.email jhandry.agila@epn.edu.ec
-    6  git config --global user.name jhoel-06
-    7  git branch -M main
-    8  git remote add origin https://github.com/jhoel-06/proyecto-app-medica.git
-    9  git push -u origin main
-   10  git add  .
-   11  git commit -m "V0"
-   12  git push -u origin main
-   13  ls
-   14  history
-   15  echo apuntes.md
-   16  ls
-   17  touch apuntes.md
-   18  history >> apuntes.md
+## CLASE 2
+- git init
+- git status
+- git add.
+- git commit -m "Version 1"
+- git branch -M main
+- git push -u origin main
+- ls
+- historyk
+- echo apuntes.md
+- ls
+- touch apuntes.md
+- history >> apuntes.md
+``` java
+public class Hola {
+    public static void main(String[] args) {
+        System.out.println("Holaaaaa!");
+    }
+}
+```
+Ejemplo suma
+``` java
+public class suma {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int resultado = a + b;
+        System.out.println("La suma de " + a + " y " + b + " es: " + resultado);
+    }
+}
+```
